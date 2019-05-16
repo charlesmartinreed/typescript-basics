@@ -25,6 +25,20 @@ let strArr: Array<string> = ["Hello", "Again", "And Goodbye"];
 let numArr: Array<number> = [15, 129, 94, 80];
 let boolArr: Array<boolean> = [true, true, false, true];
 
-console.log(strArr);
-console.log(numArr);
-console.log(boolArr);
+// console.log(strArr);
+// console.log(numArr);
+// console.log(boolArr);
+
+// DEFINING TUPLES
+let strNumTuple: [string, number] = ["Charles", 32];
+
+// console.log(strNumTuple)
+
+// VOID, UNDEFINED, NULL
+// void can be null or undefined
+// let myVoid: void = null;
+let myVoid: void = undefined;
+let myNull: null = null;
+let myUndefined: undefined = null;
+
+console.log(myVoid);

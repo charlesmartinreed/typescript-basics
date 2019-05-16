@@ -17,6 +17,16 @@ var myVar = 5;
 var strArr = ["Hello", "Again", "And Goodbye"];
 var numArr = [15, 129, 94, 80];
 var boolArr = [true, true, false, true];
-console.log(strArr);
-console.log(numArr);
-console.log(boolArr);
+// console.log(strArr);
+// console.log(numArr);
+// console.log(boolArr);
+// DEFINING TUPLES
+var strNumTuple = ["Charles", 32];
+// console.log(strNumTuple)
+// VOID, UNDEFINED, NULL
+// void can be null or undefined
+// let myVoid: void = null;
+var myVoid = undefined;
+var myNull = null;
+var myUndefined = null;
+console.log(myVoid);
